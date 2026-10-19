@@ -60,7 +60,7 @@ def main():
                         continue
                 
                 try:
-                    
+
                     x = float(input('Introduz o primeiro número: '))
                     y = float(input('Introduz o segundo número: '))
 
