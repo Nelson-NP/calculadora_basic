@@ -48,7 +48,7 @@ def main():
             "4":("Divisão", dividir, "/"),
             "5":("Potenciação", potencia, "**"),
         }
-
+        # Falta melhora está parte fazendo que quando clicarem 6 mostra info correto
         if opcao not in operacoes:
             print("Opção inválida. Tenta novamente.")
             continue
@@ -68,6 +68,6 @@ def main():
 
         except ValueError as erro:
             print(f"Erro: {erro}")
-
+# chamada da função main 
 if __name__ == "__main__":
     main()
