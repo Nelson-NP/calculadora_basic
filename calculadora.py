@@ -53,7 +53,7 @@ def main():
         if opcao not in operacoes:
             print("Opção inválida. Tenta novamente.")
             continue
-        
+        # Aqui são pedido os valores da entrada
         try:
             a = float(input("Introduz o primeiro número: "))
             b = float(input("Introduz o segundo número: "))
