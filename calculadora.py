@@ -1,4 +1,4 @@
-
+# Função para cada operação
 def adicionar(a, b):
     return a + b
 
