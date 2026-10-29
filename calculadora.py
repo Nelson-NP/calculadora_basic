@@ -40,6 +40,7 @@ def main():
 
                 for operacao in historico:
                     print(operacao)
+            continue
         
         operacoes = {
             "1":("Adição", adicionar, "+"),
@@ -68,6 +69,7 @@ def main():
 
         except ValueError as erro:
             print(f"Erro: {erro}")
+            
 # chamada da função main 
 if __name__ == "__main__":
     main()
